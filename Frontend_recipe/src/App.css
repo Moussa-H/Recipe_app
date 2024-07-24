@@ -1,0 +1,248 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.browse-search {
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.browse-search input[type="text"] {
+  margin: 0;
+  vertical-align: initial;
+  box-shadow: none;
+  display: inline-block;
+  box-sizing: border-box;
+  background: #fff;
+  width: 100%;
+  height: 3rem;
+  padding: 0 1rem;
+  font-size: 1rem;
+}
+
+.recipe-card-image {
+  background-position: center;
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+  height: 300px;
+  background-size: cover;
+}
+
+.recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.recipe-card-content {
+  text-align: left;
+  padding: 25px 35px;
+}
+
+.recipe-card-title {
+  line-height: 1.65rem;
+  display: block;
+  font-weight: 700;
+  color: #2e2f31;
+  font-size: 22px;
+  margin-bottom: 12px;
+  text-decoration: none;
+}
+.recipe-card-title:hover {
+  color: #f89223;
+}
+
+.recipe-card {
+  border: 1px solid #ebebeb !important;
+  transform: translate3d(0, 0, 0);
+  border-radius: 5px;
+  box-shadow: none;
+  border: 1px solid #ebebeb;
+  box-shadow: 0 0 15px rgba(41, 48, 55, 3%);
+  width: 30.333%;
+  min-width: 30.333%;
+}
+.container-list {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.recipe-card {
+  border: 1px solid #ebebeb !important;
+  transform: translate3d(0, 0, 0);
+  border-radius: 5px;
+  box-shadow: none;
+  border: 1px solid #ebebeb;
+  box-shadow: 0 0 15px rgba(41, 48, 55, 3%);
+  width: 30.333%;
+  min-width: 30.333%;
+  margin: 20px;
+}
+
+.btn-search {
+  width: 3.5rem;
+  height: 3.5rem;
+  background: #f89223;
+  border: 0px;
+  color: #fff;
+}
+
+.search-fields {
+  display: flex;
+  margin: 20px;
+}
+.browse-search {
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  width: 95%;
+  padding-left: 10px;
+}
+
+svg#search {
+  font-size: 25px;
+}
+
+.recipe-card-details {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border: 1px solid #d5d5d5;
+}
+
+.recipe-card-image-details {
+  background-position: center;
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+  height: auto;
+  background-size: cover;
+}
+.recipe-card-content h2 {
+  font-size: 22px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.rating {
+  margin-bottom: 40px;
+}
+
+li {
+  color: #464646;
+}
+
+.thatix-progression-notification-login {
+  background: #fffee1;
+  border: 1px solid #e7d95d;
+  font-size: 15px;
+  padding: 15px 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.thatix-progression-notification-login i {
+  padding-right: 8px;
+}
+
+.thatix-progression-notification-login a {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+dl,
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  list-style: none;
+}
+.comments-section h2 {
+  font-size: 22px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.comment-section {
+  padding: 20px;
+  background: #efefef;
+  margin: 20px;
+}
+.comment-section p {
+  font-weight: 700;
+}
+.comment p {
+  font-weight: 400 !important;
+}
+
+.row.justify-content-center .col-md-6 {
+  padding: 50px;
+  border: 1px solid #e1d6d6 !important;
+  border-radius: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+button.btn.btn-primary.btn-block {
+  background: #f89223;
+  border: 1px solid #f89223;
+}
+
+.btn-add {
+  width: 3.5rem;
+  height: 3.5rem;
+  background: #f89223;
+  border: 0px;
+  color: #fff;
+  margin-left: 5px;
+  font-size: 30px;
+  text-align: center;
+}
+button.btn.btn-primary {
+  background: #f89223;
+  border: #f89223;
+}
